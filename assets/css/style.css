@@ -2,6 +2,10 @@
     width: 100%;
     background: #000;
 }
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
 .book-one{
     font-family: 'Helvetica', sans-serif;
     padding-top: 10px;
@@ -50,5 +54,207 @@
 }
 .book-two .book-two-content{
     width: 40%;
+    margin: 35px auto;
+    color: #939799;
+}
+.book-two .book-two-content p{
+    color: #848083;
+    font-weight: bold;
+}
+.book-two .book-two-image{
+    width: 70%;
     margin: auto;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.book-two .book-two-image img{
+    width: 100%;
+}
+.book-three{
+    background-color: #FFDD00;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.book-three p{
+    width: 62%;
+    margin: auto;
+    font-size: 32px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #000;
+    font-family: 'BebasNeue', sans-serif;
+}
+.book-three p span{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 35px;
+    color: #650a5f;
+}
+.book-three .book-three-icon{
+    background: url('../images/Group_1.png') no-repeat;
+    background-size: 290px;
+    padding: 0 165px;
+    margin-top: -20px;
+    padding-top: 38px;
+    margin-left: 134px;
+}
+.book-four{
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.book-four img{
+    width: 170px;
+}
+.book-four .book-four-left{
+    padding-left: 145px;
+    padding-top: 120px;
+}
+.book-four .book-four-left img{
+    margin-left: -45px;
+}
+.book-four .book-four-left .book-four-title{
+    font-family: 'iCielBrushUp', sans-serif;
+    color: #000;
+    font-size: 42px;
+}
+.book-four .book-four-left .book-four-desc{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.book-four .book-four-middle{
+    padding-top: 220px;
+    padding-left: 42px;
+}
+.book-four .book-four-middle img{
+    width: 70px;
+}
+.book-four .book-four-right{
+    padding-top: 30px;
+}
+.book-four .book-four-right img{
+    width: 80%;
+    margin: auto;
+}
+.book-four .btn-book-four{
+    padding: 8px 20px;
+    border-radius: 20px;
+    background: #6E2869;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #6E2869;
+    margin-top: 25px;
+}
+.book-five{
+    background-color: #6E2869;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.book-five p{
+    font-family: 'BebasNeue', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+}
+.book-five p span{
+    font-family: 'iCielBrushUp', sans-serif;
+    color: #FFDD00;
+    font-size: 46px;
+}
+.book-five img{
+    width: 80%;
+}
+.book-five .book-five-name{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.book-five .book-five-info{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+}
+.book-five .row{
+    padding-top: 25px;
+}
+.book-six{
+    background-color: #fff;
+}
+.book-six img{
+    width: 100%;
+}
+.book-six .book-six-line-through{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.book-six .book-six-sale{
+    color: #FFDD00;
+    font-size: 24px;
+    font-weight: bold;
+}
+.book-six .book-six-price{
+    font-size: 42px;
+    font-weight: bold;
+}
+.book-six .icon-book-one-left{
+    background: url('../images/Group_17.png') 0 no-repeat;
+    padding: 0 10px;
+    width: 10px;
+    background-size: 17px;
+    margin-right: 10px;
+}
+.book-six .icon-book-one-right{
+    background: url('../images/Group_17.png') 0 no-repeat;
+    padding: 0 10px;
+    width: 10px;
+    background-size: 17px;
+    margin-left: 4px;
+}
+.book-six .book-six-left{
+    padding-left: 150px;
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'BebasNeue', sans-serif;
+}
+.book-six .btn-book-six{
+    padding: 8px 36px;
+    border-radius: 25px;
+    background: #6E2869;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #6E2869;
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: 'Helvetica', sans-serif;
+}
+.book-seven{
+    color: #fff;
+    text-align: center;
+}
+.book-seven img{
+    width: 100%;
+}
+.book-seven .book-seven-left{
+    padding-top: 120px;
+}
+.book-seven .book-seven-left-title{
+    font-family: 'iCielBrushUp', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+.book-seven .book-seven-left-desc{
+    font-size: 20px;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+.book-seven .btn-book-six{
+    padding: 8px 25px;
+    border-radius: 25px;
+    background: #6E2869;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #6E2869;
+    margin-top: 25px;
+    font-size: 15px;
 }

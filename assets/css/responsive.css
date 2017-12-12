@@ -1,0 +1,281 @@
+@media only screen and (max-width: 1024px){
+	.book-three p{
+		font-size: 28px;
+	}
+	.book-four .book-four-right img{
+		padding-top: 40px;
+	}
+	.book-six .btn-book-six{
+		font-size: 15px;
+	}
+	.book-seven{
+		padding-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.book-two .book-two-title span{
+		font-size: 46px;
+	}
+	.book-two .book-two-desc span{
+		font-size: 28px;
+	}
+	.book-three .book-three-icon{
+		display: none;
+	}
+	.book-three p{
+		font-size: 21px;
+	}
+	.book-four .book-four-left .book-four-title{
+		font-size: 30px;
+	}
+	.book-four .book-four-middle img{
+		width: 60px;
+	}
+	.book-four .book-four-right img{
+		width: 100%;
+	}
+	.book-four .btn-book-four{
+		font-size: 10px;
+	}
+	.book-five p{
+		font-size: 22px;
+	}
+	.book-five p span{
+		font-size: 38px;
+	}
+	.book-six .book-six-line-through{
+		font-size: 16px;
+	}
+	.book-six .book-six-sale{
+		font-size: 18px;
+	}
+	.book-six .book-six-left{
+		padding-left: 80px;
+		padding-top: 90px;
+	}
+	.book-six .icon-book-one-left{
+		background: url(../images/Group_17.png) no-repeat;
+		padding: 0px 8px;
+    	background-size: 15px;
+	}
+	.book-six .icon-book-one-right{
+		background: url(../images/Group_17.png) no-repeat;
+		padding: 0px 8px;
+    	background-size: 15px;
+	}
+	.book-six .book-six-price {
+    	font-size: 28px;
+	}
+	.book-six .btn-book-six{
+		padding: 8px 28px;
+	}
+	.book-six .btn-book-six{
+		font-size: 12px;
+	}
+	.book-seven .book-seven-left-title{
+		font-size: 22px;
+	}
+	.book-seven .book-seven-left-desc{
+		font-size: 15px;
+		width: 90%;
+	}
+	.book-four .book-four-left .book-four-desc{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 640px){
+	.book-four .book-four-left{
+		padding-left: 80px;
+	}
+	.book-six .icon-book-one-left {
+    	background: url(../images/Group_17.png) no-repeat;
+    	padding: 0px 5px;
+    	background-size: 10px;
+	}
+	.book-six .icon-book-one-right {
+	    background: url(../images/Group_17.png) no-repeat;
+	    padding: 0px 5px;
+	    background-size: 10px;
+	}
+	.book-six .book-six-price{
+		font-size: 22px;
+	}
+	.book-six .btn-book-six {
+    	font-size: 10px;
+	}
+	.book-six .btn-book-six {
+    	padding: 8px 18px;
+	}
+	.book-four .book-four-left {
+    	padding-top: 100px;
+    }
+	.book-four .book-four-middle {
+    	padding-top: 180px;
+    	padding-left: 35px;
+	}
+}
+@media only screen and (max-width: 414px){
+	.book-two .book-two-title span{
+		font-size: 28px;
+	}
+	.book-two .book-two-desc span{
+		font-size: 18px;
+	}
+	.book-two .book-two-content{
+		width: 80%;
+	}
+	.book-three p{
+		font-size: 13px;
+	}
+	.book-four .book-four-left{
+		padding-left: 50px;
+		padding-top: 60px;
+	}
+	.book-four .book-four-left .book-four-title{
+		font-size: 22px;
+	}
+	.book-four .book-four-left .book-four-desc{
+		font-size: 12px;
+	}
+	.book-four .btn-book-four{
+		font-size: 8px;
+	}
+	.book-four .book-four-middle img{
+		width: 40px;
+	}
+	.book-four .book-four-middle{
+		padding-top: 133px;
+		padding-left: 24px;
+	}
+	.book-five p{
+		font-size: 16px;
+	}
+	.book-five p span{
+		font-size: 24px;
+	}
+	.book-five .col-xs-2{
+		width: 45%;
+	}
+	.book-five .col-xs-2:first-child,
+	.book-five .col-xs-2:last-child{
+		width: 0;
+	}
+	.book-six .book-six-left{
+		padding-left: 30px;
+    	padding-top: 30px;
+	}
+	.book-six .icon-book-one-left {
+	    background: url(../images/Group_17.png) no-repeat;
+	    padding: 0px 4px;
+	    background-size: 7px;
+	}
+	.book-six .icon-book-one-right {
+	    background: url(../images/Group_17.png) no-repeat;
+	    padding: 0px 4px;
+	    background-size: 7px;
+	}
+	.book-six .book-six-price{
+		font-size: 18px;
+	}
+	.book-six .btn-book-six{
+		padding: 7px 20px;
+	}
+	.book-six .btn-book-six {
+    	font-size: 6px;
+	}
+	.book-six .btn-book-six{
+		margin-top: 10px;
+	}
+	.book-six{
+		padding-bottom: 20px;
+	}
+	.book-seven .book-seven-left{
+		padding-top: 30px;
+	}
+	.book-seven .book-seven-left-title{
+		font-size: 16px;
+	}
+	.book-seven .book-seven-left-desc {
+	    font-size: 11px;
+	    width: 100%;
+	}
+	.book-seven .btn-book-six{
+		font-size: 10px;
+	}
+	.book-one p{
+		font-size: 11px;
+	}
+	.book-one .icon-book-one-left {
+	    background-size: 7px;
+	    margin-right: -5px;
+	}
+	.book-one .icon-book-one-right {
+	    background-size: 7px;
+	    margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 375px){
+	
+}
+@media only screen and (max-width: 320px){
+	.book-one p{
+		padding: 5px 0;
+		font-size: 9px;
+	}
+	.book-one .icon-book-one-left {
+	    background-size: 5px;
+	    margin-right: -10px;
+	}
+	.book-one .icon-book-one-right {
+	    background-size: 5px;
+	    margin-left: 4px;
+	}
+	.book-one{
+		font-size: 8px;
+	}
+	.book-three p span{
+		font-size: 19px;
+	}
+	.book-four img{
+		width: 105px;
+	}
+	.book-four .book-four-left {
+	    padding-left: 32px;
+	}
+	.book-four .book-four-left img {
+	    margin-left: -32px;
+	}
+	.book-four .btn-book-four {
+    	padding: 6px 11px;
+	}
+	.book-six .btn-book-six {
+    	padding: 7px 12px;
+	}
+	.book-seven .book-seven-left-title {
+    	font-size: 11px;
+	}
+	.book-six .book-six-sale {
+    	font-size: 13px;
+	}
+	.book-six .book-six-price {
+    	font-size: 11px;
+	}
+	.book-seven .col-xs-1{
+		width: 0px;
+	}
+	.book-seven .col-xs-5{
+		width: 39%;
+	}
+	.book-seven .btn-book-six {
+    	padding: 6px 15px;
+	}
+	.book-four .book-four-right img {
+    	padding-top: 55px;
+	}
+	.book-seven .btn-book-six {
+    	font-size: 8px;
+	}
+	.book-seven .book-seven-left-desc {
+    	font-size: 8px;
+	}
+}
