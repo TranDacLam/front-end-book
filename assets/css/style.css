@@ -1,0 +1,54 @@
+.main{
+    width: 100%;
+    background: #000;
+}
+.book-one{
+    font-family: 'Helvetica', sans-serif;
+    padding-top: 10px;
+}
+.book-one p{
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 0;
+}
+.book-one .icon-book-one-left{
+    background: url('../images/Group_17.png') no-repeat;
+    padding: 0 10px;
+    width: 10px;
+    background-size: 10px;
+    margin-right: 3px;
+}
+.book-one .icon-book-one-right{
+    background: url('../images/Group_17.png') no-repeat;
+    padding: 0 10px;
+    width: 10px;
+    background-size: 10px;
+    margin-left: 10px;
+}
+.book-two{
+    background: url(../images/Group_24.png);
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+}
+.book-two .book-two-title {
+    padding-top: 100px;
+}
+.book-two .book-two-title span{
+    font-family: 'iCielBrushUp', sans-serif;
+    font-size: 60px;
+    color: #FFDD00;
+    text-transform: uppercase;
+}
+.book-two .book-two-desc span{
+    text-transform: uppercase;
+    color: #945090;
+    font-family: 'BebasNeue', sans-serif;
+    font-size: 36px;
+}
+.book-two .book-two-content{
+    width: 40%;
+    margin: auto;
+}

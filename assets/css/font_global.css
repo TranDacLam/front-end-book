@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iCielBrushUp';
+    src: url('../fonts/iCiel Brush Up.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.dfont') format('truetype');
+}
