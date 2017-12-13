@@ -2,6 +2,15 @@
     width: 100%;
     background: #000;
 }
+.wrap-two, .wrap-four, .wrap-six{
+    background-color: #fff;
+}
+.wrap-three{
+    background-color: #FFDD00;
+}
+.wrap-five{
+    background-color: #6E2869;
+}
 .container-fluid{
     padding-right: 0;
     padding-left: 0;
@@ -32,7 +41,7 @@
     margin-left: 10px;
 }
 .book-two{
-    background: url(../images/Group_24.png);
+    background: url(../images/Group_24_v2.png) no-repeat;
     background-size: 100%;
     width: 100%;
     text-align: center;
@@ -122,6 +131,7 @@
     font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     margin-top: -10px;
+    font-style: italic;
 }
 .book-four .book-four-middle{
     padding-top: 220px;
@@ -185,30 +195,30 @@
 }
 .book-six .book-six-line-through{
     text-decoration: line-through;
-    font-size: 20px;
+    font-size: 26px;
 }
 .book-six .book-six-sale{
     color: #FFDD00;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
 }
 .book-six .book-six-price{
-    font-size: 42px;
+    font-size: 46px;
     font-weight: bold;
 }
 .book-six .icon-book-one-left{
-    background: url('../images/Group_17.png') 0 no-repeat;
+    background: url('../images/Group_17.png') no-repeat;
     padding: 0 10px;
     width: 10px;
     background-size: 17px;
     margin-right: 10px;
 }
 .book-six .icon-book-one-right{
-    background: url('../images/Group_17.png') 0 no-repeat;
+    background: url('../images/Group_17.png') no-repeat;
     padding: 0 10px;
     width: 10px;
     background-size: 17px;
-    margin-left: 4px;
+    margin-left: 5px;
 }
 .book-six .book-six-left{
     padding-left: 150px;
@@ -217,7 +227,8 @@
     font-family: 'BebasNeue', sans-serif;
 }
 .book-six .btn-book-six{
-    padding: 8px 36px;
+    padding: 6px 0;
+    width: 160px;
     border-radius: 25px;
     background: #6E2869;
     color: #fff;
@@ -248,8 +259,9 @@
     width: 80%;
     margin: auto;
 }
-.book-seven .btn-book-six{
-    padding: 8px 25px;
+.book-seven .btn-book-seven{
+    padding: 8px 0;
+    width: 140px;
     border-radius: 25px;
     background: #6E2869;
     color: #fff;
@@ -257,4 +269,10 @@
     border: 1px solid #6E2869;
     margin-top: 25px;
     font-size: 15px;
+}
+.book-four .btn-book-four:hover,
+.book-six .btn-book-six:hover,
+.book-seven .btn-book-seven:hover{
+    background-color: red;
+    border: 1px solid red;
 }
