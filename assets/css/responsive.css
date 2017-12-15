@@ -1,3 +1,8 @@
+@media only screen and (min-width: 768px){
+	.book-one p{
+	    letter-spacing: 1px;
+	}
+}
 @media only screen and (max-width: 1024px){
 	.book-three p{
 		font-size: 28px;
@@ -6,13 +11,16 @@
 		padding-top: 40px;
 	}
 	.book-seven{
-		padding-bottom: 50px;
+		padding-bottom: 30px;
 	}
 	.book-four .book-four-left {
     	padding-left: 60px;
 	}
 	.book-six .book-six-left {
     	padding-left: 80px;
+	}
+	.book-three .book-three-icon{
+		margin-left: 50px;
 	}
 }
 @media only screen and (max-width: 768px){
@@ -88,7 +96,7 @@
     	padding-top: 70px;
 	}
 	.book-two .book-two-title {
-    	padding-top: 50px;
+    	padding-top: 140px;
 	}
 	.book-two .book-two-image {
     	padding-top: 5px;
@@ -165,35 +173,34 @@
 	}
 	.book-four .book-four-left{
 		padding-left: 30px;
-		padding-top: 60px;
-	}
-	.book-four .book-four-left .book-four-title{
-		font-size: 20px;
-	}
-	.book-four img {
-    	width: 110px;
+		padding-top: 50px;
 	}
 	.book-four .book-four-left img {
-    	margin-left: -33px;
+    	margin-left: -5px;
 	}
 	.book-four .btn-book-four{
 		margin-top: 5px;
-	}
-	.book-four .book-four-left .book-four-desc{
-		font-size: 10px;
-	}
-	.book-four .btn-book-four{
-		font-size: 8px;
+		margin-bottom: 30px;
 	}
 	.book-four .book-four-middle img{
-		width: 40px;
+		width: 60px;
+	}
+	.book-four .book-four-right img {
+    	padding-top: 0px;
+	}
+	.book-four .book-four-right {
+    	padding-top: 0px;
 	}
 	.book-four .book-four-middle{
-		padding-top: 133px;
+		padding-top: 40px;
 		padding-left: 24px;
 	}
+	.book-four .book-four-left .book-four-desc{
+		width: 70%;
+		margin: auto;
+	}
 	.book-five p{
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.book-five p span{
 		font-size: 24px;
@@ -209,23 +216,9 @@
 		padding-left: 25px;
     	padding-top: 30px;
 	}
-	.book-six .icon-book-one-left {
-	    background: url(../images/Group_17.png) no-repeat;
-	    padding: 0px 4px;
-	    background-size: 7px;
-	}
-	.book-six .icon-book-one-right {
-	    background: url(../images/Group_17.png) no-repeat;
-	    padding: 0px 4px;
-	    background-size: 7px;
-	}
-	.book-six .book-six-price{
-		font-size: 18px;
-	}
 	.book-six .btn-book-six{
-		font-size: 10px;
 		padding: 6px 0;
-		width: 90px;
+		width: 120px;
 		margin-top: 10px;
 	}
 	.book-six{
@@ -255,19 +248,86 @@
 	    background-size: 7px;
 	    margin-left: 5px;
 	}
-	.book-five .col-xs-3, .book-five img{
-		width: 50%;
+	.book-five .col-xs-3{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.book-five img{
+		width: 60%;
+	}
+	.book-five{
+		padding-bottom: 10px;
 	}
 	.book-seven .btn-book-seven{
 		font-size: 12px;
 		padding: 6px 0;
 		width: 100px;
 	}
+	.book-two .book-two-title {
+    	padding-top: 100px;
+	}
+	.book-four .book-four-left,
+	.book-four .book-four-middle,
+	.book-four .book-four-right,
+	.book-four .a-book-four-rsp{
+		width: 100%;
+		text-align: center;
+	}
+	.book-four .book-four-left a,
+	.book-six .book-six-left,
+	.book-seven .book-seven-left{
+	    display: none;
+	}
+	.book-four .a-book-four-rsp,
+	.book-six .book-six-rsp,
+	.book-seven .book-seven-rsp{
+		display: block;
+	}
+	.book-four{
+		padding-bottom: 40px;
+	}
+	.book-six .col-xs-8,
+	.book-six .col-xs-4{
+		width: 100%;
+	}
+	.book-six{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.book-six .book-six-line-through{
+		font-size: 22px;
+	}
+	.book-six .book-six-sale {
+    	font-size: 24px;
+	}
+	.book-six .book-six-price{
+		font-size: 32px;
+	}
+	.book-six .icon-book-one-left {
+	    background: url(../images/Group_17.png) 0 no-repeat;
+	    padding: 0px 8px;
+	    background-size: 14px;
+	}
+	.book-six .icon-book-one-right {
+	    background: url(../images/Group_17.png) 0 no-repeat;
+	    padding: 0px 8px;
+	    background-size: 14px;
+	    margin-left: 0px;
+	}
+	.book-seven .book-seven-right,
+	.book-seven .book-seven-rsp{
+		width: 100%;
+	}
+	.book-seven,
+	.book-seven .book-seven-left-desc,
+	.book-seven .book-seven-left-title{
+		text-align: center;
+	}
+	.book-seven .btn-book-seven{
+		float: none;
+	}
 }
 @media only screen and (max-width: 375px){
-	.book-four .book-four-right img {
-    	padding-top: 40px;
-	}
 }
 @media only screen and (max-width: 320px){
 	.book-one p{
@@ -321,9 +381,6 @@
 	}
 	.book-seven .btn-book-six {
     	padding: 6px 15px;
-	}
-	.book-four .book-four-right img {
-    	padding-top: 55px;
 	}
 	.book-seven .btn-book-six {
     	font-size: 8px;
