@@ -34,7 +34,6 @@
     text-transform: uppercase;
     color: #fff;
     padding: 5px 0;
-    letter-spacing: 1px;
 }
 .book-one .icon-book-one-left{
     background: url('../images/Group_17.png') no-repeat;
@@ -57,7 +56,8 @@
     text-align: center;
 }
 .book-two .book-two-title {
-    padding-top: 100px;
+    padding-top: 90px;
+    margin-top: 60px;
 }
 .book-two .book-two-title span{
     font-family: 'iCielBrushUp', sans-serif;
@@ -105,6 +105,7 @@
     padding-bottom: 30px;
     color: #000;
     font-family: 'BebasNeue', sans-serif;
+    letter-spacing: 1.5px;
 }
 .book-three p span{
     font-family: 'Helvetica', sans-serif;
@@ -113,11 +114,11 @@
 }
 .book-three .book-three-icon{
     background: url('../images/Group_1.png') no-repeat;
-    background-size: 290px;
+    background-size: 310px;
     padding: 0 165px;
     margin-top: -20px;
     padding-top: 38px;
-    margin-left: 10px;
+    margin-left: 81px;
 }
 .book-four{
     background-color: #fff;
@@ -176,7 +177,6 @@
 .book-five p{
     font-family: 'BebasNeue', sans-serif;
     color: #fff;
-    font-weight: bold;
     font-size: 28px;
 }
 .book-five p span{
@@ -189,7 +189,7 @@
     width: 70%;
 }
 .book-five .book-five-name{
-    font-size: 16px;
+    font-size: 32px;
     padding-top: 10px;
 }
 .book-five .book-five-info{
@@ -213,11 +213,9 @@
 .book-six .book-six-sale{
     color: #FFDD00;
     font-size: 32px;
-    font-weight: bold;
 }
 .book-six .book-six-price{
     font-size: 46px;
-    font-weight: bold;
 }
 .book-six .icon-book-one-left{
     background: url('../images/Group_17.png') no-repeat;
@@ -264,7 +262,6 @@
 .book-seven .book-seven-left-title{
     font-family: 'iCielBrushUp', sans-serif;
     font-size: 38px;
-    font-weight: bold;
     text-align: left;
 }
 .book-seven .book-seven-left-desc{
@@ -298,6 +295,7 @@
 }
 .book-four .a-book-four-rsp,
 .book-six .book-six-rsp,
-.book-seven  .book-seven-rsp{
+.book-seven  .book-seven-rsp,
+.book-four .book-four-rsp-dashed{
     display: none;
 }

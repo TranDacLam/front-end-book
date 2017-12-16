@@ -20,7 +20,16 @@
     	padding-left: 80px;
 	}
 	.book-three .book-three-icon{
-		margin-left: 50px;
+		margin-left: 103px;
+	}
+	.book-five .book-five-name{
+		font-size: 28px;
+	}
+	.book-one p{
+		margin-left: 10px;
+	}
+	.book-three p{
+	    letter-spacing: 1px;
 	}
 }
 @media only screen and (max-width: 768px){
@@ -96,7 +105,7 @@
     	padding-top: 70px;
 	}
 	.book-two .book-two-title {
-    	padding-top: 140px;
+    	padding-top: 70px;
 	}
 	.book-two .book-two-image {
     	padding-top: 5px;
@@ -115,13 +124,26 @@
 		font-size: 25px;
 	}
 	.book-three p{
-		width: 95%;
+		width: 70%;
+	}
+	.book-five .book-five-name{
+		font-size: 20px;
 	}
 }
 @media only screen and (max-width: 736px){
 	.book-six .btn-book-six {
     	font-size: 14px;
     	width: 130px;
+	}
+	.book-five .col-xs-3{
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.book-five{
+		padding-bottom: 30px;
+	}
+	.book-five .book-five-name{
+		font-size: 24px;
 	}
 }
 @media only screen and (max-width: 640px){
@@ -154,6 +176,9 @@
 	.book-seven .book-seven-left {
     	padding-top: 40px;
 	}
+	.book-four .btn-book-four{
+		margin-top: 10px;
+	}
 }
 @media only screen and (max-width: 414px){
 	.book-two .book-two-title span{
@@ -166,6 +191,7 @@
 		width: 80%;
 	}
 	.book-three p{
+		width: 95%;
 		font-size: 18px;
 	}
 	.book-three p span {
@@ -176,11 +202,11 @@
 		padding-top: 50px;
 	}
 	.book-four .book-four-left img {
-    	margin-left: -5px;
+    	margin-left: -15px;
 	}
 	.book-four .btn-book-four{
 		margin-top: 5px;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	.book-four .book-four-middle img{
 		width: 60px;
@@ -192,7 +218,7 @@
     	padding-top: 0px;
 	}
 	.book-four .book-four-middle{
-		padding-top: 40px;
+		padding-top: 30px;
 		padding-left: 24px;
 	}
 	.book-four .book-four-left .book-four-desc{
@@ -227,11 +253,7 @@
 	.book-seven .book-seven-left{
 		padding-top: 30px;
 	}
-	.book-seven .book-seven-left-title{
-		font-size: 16px;
-	}
 	.book-seven .book-seven-left-desc {
-	    font-size: 11px;
 	    width: 100%;
 	}
 	.book-seven .btn-book-six{
@@ -239,6 +261,7 @@
 	}
 	.book-one p{
 		font-size: 11px;
+		margin-left: 15px;
 	}
 	.book-one .icon-book-one-left {
 	    background-size: 7px;
@@ -264,7 +287,7 @@
 		width: 100px;
 	}
 	.book-two .book-two-title {
-    	padding-top: 100px;
+    	padding-top: 40px;
 	}
 	.book-four .book-four-left,
 	.book-four .book-four-middle,
@@ -325,9 +348,25 @@
 	}
 	.book-seven .btn-book-seven{
 		float: none;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.book-four .book-four-rsp-dashed{
+		display: block;
+	}
+	.book-four .book-four-rsp-dashed div{
+		width: 50%;
+		border-bottom: 1px dashed;
+		margin: auto;
+	}
+	.book-five .book-five-name{
+		font-size: 22px;
 	}
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 360px){
+	.book-one p{
+		margin-left: 9px;
+	}
 }
 @media only screen and (max-width: 320px){
 	.book-one p{
@@ -349,13 +388,10 @@
 		font-size: 19px;
 	}
 	.book-four img{
-		width: 105px;
+		width: 140px;
 	}
 	.book-four .book-four-left {
 	    padding-left: 32px;
-	}
-	.book-four .book-four-left img {
-	    margin-left: -32px;
 	}
 	.book-four .btn-book-four {
     	padding: 6px 11px;
@@ -392,5 +428,8 @@
 	    padding: 5px 0;
 	    font-size: 10px;
 	    width: 80px;
+	}
+	.book-one p {
+    	margin-left: 17px;
 	}
 }
