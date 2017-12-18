@@ -35,6 +35,9 @@
     color: #fff;
     padding: 5px 0;
 }
+.book-one p a{
+    color: #fff;
+}
 .book-one .icon-book-one-left{
     background: url('../images/Group_17.png') no-repeat;
     padding: 0 10px;

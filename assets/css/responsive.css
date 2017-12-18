@@ -129,6 +129,9 @@
 	.book-five .book-five-name{
 		font-size: 20px;
 	}
+	.book-one p a{
+	    text-decoration: none;
+	}
 }
 @media only screen and (max-width: 736px){
 	.book-six .btn-book-six {
